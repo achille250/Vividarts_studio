@@ -21,3 +21,26 @@ This repository contains the necessary scripts and configurations to deploy and 
 **policy.tf:** Terraform configuration for creating an IAM policy and attaching it to a user.
 
 **S3bucket.tf:** Terraform configuration for creating an AWS S3 bucket.
+
+**Usage**
+**AWS Credentials:**
+
+Replace placeholder values in app.py and lambda.tf with your AWS access key, secret key, and region.
+
+**Docker Container:**
+
+Build the Docker container using the provided Dockerfile.
+
+**Infrastructure Deployment:**
+
+Use Terraform to deploy the infrastructure (lambda.tf, policy.tf, S3bucket.tf).
+
+**Run the Application:**
+
+Start the Flask application in the Docker container.
+Access the Application:
+
+Use the provided endpoint to access the application, upload images, and view processed results.
+Contribute:
+
+Explore the code, contribute enhancements, and make the project even better!
