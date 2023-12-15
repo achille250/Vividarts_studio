@@ -7,6 +7,7 @@ This repository contains the necessary scripts and configurations to deploy and 
 •	**Serverless Image Processing:** AWS Lambda is used to process uploaded images (e.g., convert to black and white).
 •	**Storage:** Processed images are stored in an Amazon S3 bucket.
 •	**Dockerized Application:** The Flask application is containerized using Docker for easy deployment.
+
 **Files**
 
 1.	**app.py:** Main Flask application for handling image uploads and triggering Lambda functions.
@@ -25,7 +26,7 @@ This repository contains the necessary scripts and configurations to deploy and 
 •	Use Terraform to deploy the infrastructure (lambda.tf, policy.tf, S3bucket.tf)
 4.	**Run the Application:**
 •	Start the Flask application in the Docker container.
-5.	Access the Application:
+**5.	Access the Application:**
 •	Use the provided endpoint to access the application, upload images, and view processed results.
-6.	Contribute:
+**6.	Contribute:**
 •	Explore the code, contribute enhancements, and make the project even better!
