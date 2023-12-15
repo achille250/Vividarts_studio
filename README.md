@@ -31,7 +31,7 @@ This repository contains the necessary scripts and configurations to deploy and 
 •	Use Terraform to deploy the infrastructure (lambda.tf, policy.tf, S3bucket.tf)
 4.	**Run the Application:**
 •	Start the Flask application in the Docker container.
-**5.	Access the Application:**
+5.	**Access the Application:**
 •	Use the provided endpoint to access the application, upload images, and view processed results.
-**6.	Contribute:**
+6.	**Contribute:**
 •	Explore the code, contribute enhancements, and make the project even better!
