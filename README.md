@@ -6,8 +6,11 @@ This repository contains the necessary scripts and configurations to deploy and 
 
 
 •	**Image Upload:** Users can upload images through a web interface.
+
 •	**Serverless Image Processing:** AWS Lambda is used to process uploaded images (e.g., convert to black and white).
+
 •	**Storage:** Processed images are stored in an Amazon S3 bucket.
+
 •	**Dockerized Application:** The Flask application is containerized using Docker for easy deployment.
 
 **Files**
