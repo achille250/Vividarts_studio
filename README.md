@@ -3,6 +3,8 @@ The Vivid Arts Studio project is a web application that allows users to upload i
 This repository contains the necessary scripts and configurations to deploy and run the application.
 
 **Features**
+
+
 •	**Image Upload:** Users can upload images through a web interface.
 •	**Serverless Image Processing:** AWS Lambda is used to process uploaded images (e.g., convert to black and white).
 •	**Storage:** Processed images are stored in an Amazon S3 bucket.
